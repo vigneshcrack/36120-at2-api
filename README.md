@@ -3,6 +3,7 @@
 **Student:** Vignesh Selvam (25740287)
 **Subject:** 36120 Advanced Machine Learning, Session 26SP - Assessment Task 2 (Machine Learning as a Service)
 **Companion repository:** [36120-at2-experiments](https://github.com/vigneshcrack/36120-at2-experiments) (model training/experimentation)
+**Live deployment:** https://at2-weather-api-idge.onrender.com (free tier - first request after idling can take 30-50s)
 
 A FastAPI service that serves two machine learning models trained on Sydney, NSW historical
 weather data from the [Open-Meteo Historical Weather API](https://open-meteo.com/):
@@ -177,7 +178,8 @@ Then visit `http://127.0.0.1:8000/docs` as above.
      `$PORT` automatically.
 4. Click **Deploy Web Service** and allow a few minutes for the first build.
 5. Once deployed, verify the live URL responds correctly at `/`, `/health`, and both prediction
-   endpoints before submitting.
+   endpoints before submitting. This service is currently deployed at
+   **https://at2-weather-api-idge.onrender.com**.
 
 ## Troubleshooting
 
